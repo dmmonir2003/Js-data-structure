@@ -5,15 +5,15 @@ const obj ={
     this.firstName+this.lastName
     
   },
-  "address:'rohimpur'
+  "address":'rohimpur',
 }
 
 obj.lastName="Hossain";
-console.log(obj["address"])
+console.log(obj["address"]);
 obj.getName();
-delete obj["address"]
-obj.keys()
-obj.values()
+delete obj["address"];
+obj.keys();
+obj.values();
 
 
 
