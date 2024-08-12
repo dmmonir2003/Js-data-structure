@@ -1,5 +1,5 @@
 // set implement 
-
+/*
 const set=new Set([1,2,3]);
 
 
@@ -12,8 +12,10 @@ set.delete(1);
 
 
 
-for (let i of set) {
+ for (let i of set) {
   console.log(i);
 };
 
 set.clear()
+
+*/
