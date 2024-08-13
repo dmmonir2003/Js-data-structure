@@ -1,3 +1,4 @@
+/*
 class Stack {
   constructor() {
     this.items = [];
@@ -57,3 +58,6 @@ console.log('isEmpty',stack.isEmpty());
 
 stack.clear();
 stack.print()
+
+
+*/
