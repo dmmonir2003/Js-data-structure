@@ -23,7 +23,7 @@ class Queue{
   }
   
   size(){
-    return this.items.length()
+    return this.items.length
   }
   
   print(){
@@ -31,3 +31,16 @@ class Queue{
   }
   
 }
+
+
+const queue=new Queue();
+
+queue.enqueue(10);
+queue.enqueue(20);
+queue.enqueue(30);
+
+queue.print()
+
+console.log(queue.dequeue())
+console.log(queue.size())
+console.log(queue.peek())
