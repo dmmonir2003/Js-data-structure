@@ -1,3 +1,5 @@
+/*
+
 class Queue{
   constructor(){
     this.items=[];
@@ -44,3 +46,5 @@ queue.print()
 console.log(queue.dequeue())
 console.log(queue.size())
 console.log(queue.peek())
+
+*/
