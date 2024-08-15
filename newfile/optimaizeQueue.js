@@ -5,7 +5,7 @@ class Queue{
     this.rear=0;
   }
   
-  emqueue(item){
+  enqueue(item){
     this.items[this.rear]=item;
     this.rear++
   }
@@ -37,3 +37,20 @@ class Queue{
   }
 
 }
+
+const queue =new Queue()
+console.log(queue.isEmpty());
+queue.enqueue(10);
+queue.enqueue(20);
+queue.enqueue(30);
+
+queue.print()
+
+queue.dequeue()
+
+console.log(queue.peek())
+
+console.log(queue.size())
+queue.enqueue(40)
+console.log(queue.peek())
+queue.print()
