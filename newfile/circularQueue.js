@@ -1,3 +1,4 @@
+/*
 class CircularQueue {
   constructor(capacity) {
     this.items = new Array(capacity);
@@ -80,3 +81,5 @@ console.log(queue.dequeue())
 console.log(queue.peek())
 queue.enqueue(60)
 queue.print()
+
+*/
