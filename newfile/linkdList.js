@@ -19,7 +19,18 @@ class linkdList {
     return this.size
   }
   
-  
+  prepend(value){
+    const node=new Node(value);
+    if (this.isEmpty()) {
+      this.head=node;
+      this.size++
+    } else {
+      this.next=this.head;
+      this.head=node;
+      this.size++
+    }
+    
+  }
 }
 
 const list =new linkdList();
