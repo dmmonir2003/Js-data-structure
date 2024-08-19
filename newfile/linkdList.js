@@ -23,13 +23,28 @@ class linkdList {
     const node=new Node(value);
     if (this.isEmpty()) {
       this.head=node;
-      this.size++
+      
     } else {
-      this.next=this.head;
+      node.next=this.head;
       this.head=node;
-      this.size++
+      
     }
-    
+this.size++
+  }
+  
+  print(){
+    if (this.isEmpty()) {
+      console.log('list is empty')
+    } else {
+    let currentNode=this.head;
+    let listValues='';
+    while (currentNode) {
+      listValues+=`${currentNode.value  }-> `;
+      currentNode=currentNode.next
+    }
+    listValues+='null'
+      console.log(listValues)
+    }
   }
 }
 
@@ -38,8 +53,8 @@ const list =new linkdList();
 console.log('list isEmty:', list.isEmpty());
 console.log('list size : ', list.getSize())
 
-list.prepend(10);
+
 list.prepend(20);
 list.prepend(30);
-console.log(list.getSize())
 
+list.print()
