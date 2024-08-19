@@ -21,3 +21,8 @@ class linkdList {
   
   
 }
+
+const list =new linkdList();
+
+console.log('list isEmty:', list.isEmpty());
+console.log('list size : ', list.getSize())
