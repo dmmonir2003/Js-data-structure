@@ -20,6 +20,7 @@ class linkdList {
     return this.size
   }
   
+  //constant time o(1)
   prepend(value){
     const node=new Node(value);
     if (this.isEmpty()) {
@@ -33,6 +34,7 @@ class linkdList {
 this.size++
   }
   
+  //lenear time o(n)
   appand(value){
     const node =new Node(value)
     if(this.isEmpty()){
@@ -70,6 +72,11 @@ console.log('list isEmty:', list.isEmpty());
 console.log('list size : ', list.getSize())
 
 
-list.prepend(20);
-list.prepend(30);
+//list.prepend(20);
+//list.prepend(30);
 
+
+list.appand(10);
+list.appand(20);
+list.appand(30);
+list.print()
