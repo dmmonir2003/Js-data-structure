@@ -1,3 +1,4 @@
+
 class Node {
   constructor(value) {
     this.value=value;
@@ -32,6 +33,14 @@ class linkdList {
 this.size++
   }
   
+  appand(value){
+    const node =new Node(value)
+    if(this.isEmpty()){
+      this.head=node
+    }
+    this.size++
+  }
+  
   print(){
     if (this.isEmpty()) {
       console.log('list is empty')
@@ -57,4 +66,3 @@ console.log('list size : ', list.getSize())
 list.prepend(20);
 list.prepend(30);
 
-list.print()
