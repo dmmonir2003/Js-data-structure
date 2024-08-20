@@ -37,6 +37,13 @@ this.size++
     const node =new Node(value)
     if(this.isEmpty()){
       this.head=node
+    } else {
+     let prev=this.head;
+     while (prev.next) {
+       // Tab to editnext
+       prev=prev.next
+     }
+     prev.next=node
     }
     this.size++
   }
