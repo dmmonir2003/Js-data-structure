@@ -57,7 +57,20 @@ this.size++
       return
     }
     
-    
+    if (insert==0) {
+      this.prepend(value)
+    } else {
+      const node = new Node(value);
+      let prev = this.head;
+      for(let i = 0; i < index -1;i++){
+        prev=prev.next
+        
+      }
+      node.next=prev.next;
+      prev.next=node;
+      this.size++;
+      
+    }
     
   }
   
