@@ -54,10 +54,10 @@ this.size++
   insert(value,index)
   {
     if (index<0||index>this.size) {
-      return
+      return console.log('invalid input or invalid index')
     }
     
-    if (insert==0) {
+    if (index ===0) {
       this.prepend(value)
     } else {
       const node = new Node(value);
@@ -69,7 +69,6 @@ this.size++
       node.next=prev.next;
       prev.next=node;
       this.size++;
-      
     }
     
   }
@@ -103,4 +102,9 @@ console.log('list size : ', list.getSize())
 list.appand(10);
 list.appand(20);
 list.appand(30);
+//list.print()
+list.insert(50,1)
+list.print()
+
+list.insert(70,4)
 list.print()
