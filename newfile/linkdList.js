@@ -50,6 +50,17 @@ this.size++
     this.size++
   }
   
+  
+  insert(value,index)
+  {
+    if (index<0||index>this.size) {
+      return
+    }
+    
+    
+    
+  }
+  
   print(){
     if (this.isEmpty()) {
       console.log('list is empty')
