@@ -76,7 +76,7 @@ this.size++
 
  removeFromLinkedList(index){
    if(index<0||index>=this.size){
-     return null;
+     return console.log('invalid index');
    }
    
    let removedNode;
@@ -133,3 +133,10 @@ list.print()
 
 list.insert(70,4)
 list.print()
+
+list.removeFromLinkedList(10)
+list.removeFromLinkedList(0)
+list.print()
+list.removeFromLinkedList(1)
+list.print()
+console.log(list.getSize())
