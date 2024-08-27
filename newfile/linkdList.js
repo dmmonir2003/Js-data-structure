@@ -75,7 +75,9 @@ this.size++
   
 
  removeFromLinkedList(index){
-   
+   if(index<0||index>=this.size){
+     return null;
+   }
  }
   
   print(){
