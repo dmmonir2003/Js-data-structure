@@ -73,6 +73,11 @@ this.size++
     
   }
   
+
+ removeFromLinkedList(index){
+   
+ }
+  
   print(){
     if (this.isEmpty()) {
       console.log('list is empty')
