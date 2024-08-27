@@ -84,6 +84,13 @@ this.size++
      removedNode=this.head;
      this.head=this.head.next;
      
+   } else {
+     let prev=this.head;
+     for(let i=0;i<index-1;i++){
+       prev=prev.next
+     }
+     removedNode=prev.next;
+     prev.next=removedNode.next;
    }
    
    this.size--;
