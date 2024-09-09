@@ -1,4 +1,4 @@
-
+/*
 class Node {
   constructor(value) {
     this.value=value;
@@ -140,3 +140,4 @@ list.print()
 list.removeFromLinkedList(1)
 list.print()
 console.log(list.getSize())
+*/
