@@ -1,3 +1,5 @@
+/*
+
 // Node class representing each element in the linked list
 class Node {
     constructor(value) {
@@ -54,3 +56,5 @@ list.append(30);
 
 console.log(list.search(20));  // Output: "Value 20 found at index 1"
 console.log(list.search(40));  // Output: "Value 40 not found"
+
+*/
