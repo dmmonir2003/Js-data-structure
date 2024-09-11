@@ -1,3 +1,4 @@
+/*
 class ListNode {
     constructor(value) {
         this.value = value;
@@ -27,3 +28,4 @@ head.next.next.next.next = new ListNode(5);
 let reversedHead = reverseLinkedList(head);
 
 
+*/
