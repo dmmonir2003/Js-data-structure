@@ -62,3 +62,13 @@ class LinkedList {
   }
 }
 
+// Example usage
+const list = new LinkedList();
+list.addToTail(10);
+list.addToTail(20);
+list.addToTail(30);
+list.addToHead(5);
+list.printList(); // Output: 5 -> 10 -> 20 -> 30 -> null
+
+list.removeHead();
+list.printList(); // Output: 10 -> 20 -> 30 -> null
