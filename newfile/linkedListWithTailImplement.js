@@ -1,3 +1,4 @@
+/*
 class Node {
   constructor(value) {
     this.value = value;
@@ -72,3 +73,5 @@ list.printList(); // Output: 5 -> 10 -> 20 -> 30 -> null
 
 list.removeHead();
 list.printList(); // Output: 10 -> 20 -> 30 -> null
+
+*/
