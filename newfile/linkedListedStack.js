@@ -48,3 +48,17 @@ class Stack {
     return this.size;
   }
 }
+
+// Example usage:
+const stack = new Stack();
+stack.push(10);
+stack.push(20);
+stack.push(30);
+
+console.log(stack.peek()); // Output: 30
+console.log(stack.pop());  // Output: 30
+console.log(stack.peek()); // Output: 20
+console.log(stack.isEmpty()); // Output: false
+console.log(stack.getSize()); // Output: 2
+
+
