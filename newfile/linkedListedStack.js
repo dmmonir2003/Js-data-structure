@@ -1,3 +1,4 @@
+/*
 // Node class to create new nodes
 class Node {
   constructor(value) {
@@ -62,3 +63,4 @@ console.log(stack.isEmpty()); // Output: false
 console.log(stack.getSize()); // Output: 2
 
 
+*/
