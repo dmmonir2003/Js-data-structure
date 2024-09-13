@@ -56,3 +56,15 @@ class Queue {
     return this.size;
   }
 }
+
+// Example usage:
+const queue = new Queue();
+
+queue.enqueue(10);
+queue.enqueue(20);
+queue.enqueue(30);
+
+console.log(queue.dequeue()); // Output: 10
+console.log(queue.peek());    // Output: 20
+console.log(queue.getSize()); // Output: 2
+console.log(queue.isEmpty()); // Output: false
