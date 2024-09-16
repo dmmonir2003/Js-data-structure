@@ -92,3 +92,17 @@ class DoublyLinkedList {
         return removedNode;
     }
 }
+
+// Example usage
+const list = new DoublyLinkedList();
+list.append(10);
+list.append(20);
+list.append(30);
+list.prepend(5);
+list.printList(); // Output: [5, 10, 20, 30]
+
+list.removeLast();
+list.printList(); // Output: [5, 10, 20]
+
+list.removeFirst();
+list.printList(); // Output: [10, 20]
