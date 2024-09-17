@@ -1,3 +1,5 @@
+/*
+
 // Node class to represent each element in the doubly linked list
 class Node {
     constructor(value) {
@@ -106,3 +108,5 @@ list.printList(); // Output: [5, 10, 20]
 
 list.removeFirst();
 list.printList(); // Output: [10, 20]
+
+*/
