@@ -42,3 +42,14 @@ class HashTable {
     }
   }
 }
+
+// Example usage
+const myHashTable = new HashTable();
+myHashTable.set('name', 'John');
+myHashTable.set('age', 25);
+
+console.log(myHashTable.get('name'));  // Output: John
+console.log(myHashTable.get('age'));   // Output: 25
+
+myHashTable.remove('age');
+console.log(myHashTable.get('age'));   // Output: undefined
