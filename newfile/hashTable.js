@@ -1,3 +1,4 @@
+/*
 class HashTable {
   constructor() {
     this.table = new Array(100);  // Create a table with 100 buckets (size can vary)
@@ -53,3 +54,5 @@ console.log(myHashTable.get('age'));   // Output: 25
 
 myHashTable.remove('age');
 console.log(myHashTable.get('age'));   // Output: undefined
+
+*/
