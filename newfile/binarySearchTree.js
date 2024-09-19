@@ -105,3 +105,29 @@ class BinarySearchTree {
     }
   }
 }
+
+
+// Example usage
+const bst = new BinarySearchTree();
+bst.insert(15);
+bst.insert(10);
+bst.insert(20);
+bst.insert(8);
+bst.insert(12);
+bst.insert(17);
+bst.insert(25);
+
+console.log("In-order traversal:");
+bst.inorder();
+
+console.log("\nPre-order traversal:");
+bst.preorder();
+
+console.log("\nPost-order traversal:");
+bst.postorder();
+
+console.log("\nSearch 10:", bst.search(10)); // true
+console.log("Search 30:", bst.search(30)); // false
+
+console.log("\nMinimum node:", bst.findMinNode().value); // 8
+console.log("Maximum node:", bst.findMaxNode().value); // 25
