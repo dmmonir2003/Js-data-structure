@@ -1,3 +1,4 @@
+/*
 // Binary Search Tree Node class
 class Node {
   constructor(value) {
@@ -131,3 +132,6 @@ console.log("Search 30:", bst.search(30)); // false
 
 console.log("\nMinimum node:", bst.findMinNode().value); // 8
 console.log("Maximum node:", bst.findMaxNode().value); // 25
+
+
+*/
