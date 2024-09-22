@@ -74,3 +74,16 @@ bst.insert(7);
 bst.insert(22);
 bst.insert(17);
 bst.insert(13);
+
+
+// In-order traversal
+console.log("In-order traversal:");
+bst.inorder(bst.root);
+
+// Searching for a value
+const searchResult = bst.search(bst.root, 17);
+if (searchResult !== null) {
+  console.log(`Node found with value: ${searchResult.data}`);
+} else {
+  console.log("Node not found");
+}
