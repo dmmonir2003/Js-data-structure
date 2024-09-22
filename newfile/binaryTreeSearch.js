@@ -62,3 +62,15 @@ class BinarySearchTree {
     }
   }
 }
+
+// Example usage:
+const bst = new BinarySearchTree();
+
+// Inserting nodes
+bst.insert(15);
+bst.insert(25);
+bst.insert(10);
+bst.insert(7);
+bst.insert(22);
+bst.insert(17);
+bst.insert(13);
