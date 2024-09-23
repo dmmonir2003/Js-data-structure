@@ -1,3 +1,5 @@
+/*
+
 // Define the Node class
 class Node {
   constructor(data) {
@@ -87,3 +89,6 @@ if (searchResult !== null) {
 } else {
   console.log("Node not found");
 }
+
+
+*/
