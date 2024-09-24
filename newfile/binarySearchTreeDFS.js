@@ -79,3 +79,14 @@ bst.insert(2);
 bst.insert(7);
 bst.insert(12);
 bst.insert(20);
+
+
+// Perform DFS traversals
+console.log('In-Order Traversal:');
+bst.inOrder();   // Output: 2, 5, 7, 10, 12, 15, 20
+
+console.log('Pre-Order Traversal:');
+bst.preOrder();  // Output: 10, 5, 2, 7, 15, 12, 20
+
+console.log('Post-Order Traversal:');
+bst.postOrder(); // Output: 2, 7, 5, 12, 20, 15, 10
