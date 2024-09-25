@@ -1,3 +1,5 @@
+/*
+
 // Binary Search Tree Node
 class Node {
   constructor(value) {
@@ -90,3 +92,5 @@ bst.preOrder();  // Output: 10, 5, 2, 7, 15, 12, 20
 
 console.log('Post-Order Traversal:');
 bst.postOrder(); // Output: 2, 7, 5, 12, 20, 15, 10
+
+*/
