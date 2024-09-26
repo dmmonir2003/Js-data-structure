@@ -72,3 +72,5 @@ bst.insert(15);
 bst.insert(3);
 bst.insert(8);
 bst.insert(20);
+
+console.log(bst.bfs()); // Output: [10, 6, 15, 3, 8, 20]
