@@ -1,3 +1,5 @@
+/*
+
 // Node structure for the Binary Search Tree
 class Node {
     constructor(value) {
@@ -74,3 +76,6 @@ bst.insert(8);
 bst.insert(20);
 
 console.log(bst.bfs()); // Output: [10, 6, 15, 3, 8, 20]
+
+
+*/
