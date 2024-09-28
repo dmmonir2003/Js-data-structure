@@ -59,3 +59,6 @@ bst.insert(5);
 bst.insert(20);
 bst.insert(15);
 bst.insert(30);
+
+
+console.log("Max value in the tree: ", bst.findMax()); // Output: 30
