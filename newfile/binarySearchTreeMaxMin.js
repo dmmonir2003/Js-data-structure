@@ -51,3 +51,11 @@ class BinarySearchTree {
         return current.value;
     }
 }
+
+// Example usage
+const bst = new BinarySearchTree();
+bst.insert(10);
+bst.insert(5);
+bst.insert(20);
+bst.insert(15);
+bst.insert(30);
