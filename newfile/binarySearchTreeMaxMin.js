@@ -1,3 +1,5 @@
+/*
+
 // Node class for the tree
 class Node {
     constructor(value) {
@@ -62,3 +64,5 @@ bst.insert(30);
 
 
 console.log("Max value in the tree: ", bst.findMax()); // Output: 30
+
+*/
