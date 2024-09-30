@@ -111,3 +111,13 @@ bst.insert(20);
 bst.insert(40);
 bst.insert(60);
 bst.insert(80);
+
+
+console.log('Inorder traversal before deletion:');
+bst.inorder(bst.getRootNode());
+
+bst.delete(50); // Delete node with value 50
+
+console.log('Inorder traversal after deletion:');
+bst.inorder(bst.getRootNode());
+
