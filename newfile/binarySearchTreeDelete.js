@@ -1,4 +1,4 @@
-
+/*
 
 class Node {
   constructor(data) {
@@ -121,3 +121,4 @@ bst.delete(50); // Delete node with value 50
 console.log('Inorder traversal after deletion:');
 bst.inorder(bst.getRootNode());
 
+*/
