@@ -1,3 +1,4 @@
+/*
 class Graph {
   constructor(size) {
     this.size = size;
@@ -50,3 +51,5 @@ graph.addEdge(1, 3);
 
 
 graph.printMatrix();
+
+*/
