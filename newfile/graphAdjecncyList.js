@@ -60,3 +60,4 @@ graph.addEdge('A', 'B');
 graph.addEdge('A', 'C');
 graph.addEdge('B', 'C');
 
+graph.printGraph();
