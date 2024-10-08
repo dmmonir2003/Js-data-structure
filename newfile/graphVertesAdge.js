@@ -41,3 +41,7 @@ myGraph.addEdge("A", "B");
 myGraph.addEdge("A", "C");
 myGraph.addEdge("B", "D");
 myGraph.addEdge("C", "D");
+
+
+// Display the graph
+myGraph.displayGraph();
