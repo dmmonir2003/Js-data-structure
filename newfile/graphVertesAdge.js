@@ -25,3 +25,19 @@ class Graph {
     }
   }
 }
+
+
+// Create a new graph
+const myGraph = new Graph();
+
+// Add vertices
+myGraph.addVertex("A");
+myGraph.addVertex("B");
+myGraph.addVertex("C");
+myGraph.addVertex("D");
+
+// Add edges
+myGraph.addEdge("A", "B");
+myGraph.addEdge("A", "C");
+myGraph.addEdge("B", "D");
+myGraph.addEdge("C", "D");
