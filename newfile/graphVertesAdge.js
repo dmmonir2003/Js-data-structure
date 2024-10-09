@@ -1,3 +1,5 @@
+
+/*
 class Graph {
   constructor() {
     this.adjacencyList = {}; // This will store the vertices and edges
@@ -45,3 +47,5 @@ myGraph.addEdge("C", "D");
 
 // Display the graph
 myGraph.displayGraph();
+
+*/
