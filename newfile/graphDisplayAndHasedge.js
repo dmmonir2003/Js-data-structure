@@ -45,5 +45,7 @@ graph.addEdge("A", "C");
 graph.display();
 
 // Check if an edge exists between A and B
-console.log("Edge between A and B:", graph.hasEdge("A", "B")); // true
+console.log("Edge between A and B:", graph.hasEdge("A", "B")); 
 
+// Check if an edge exists between B and C
+console.log("Edge between B and C:", graph.hasEdge("B", "C")); // false
