@@ -47,4 +47,15 @@ class Graph {
   }
 }
 
-//
+// Example usage
+const g = new Graph();
+g.addVertex('A');
+g.addVertex('B');
+g.addVertex('C');
+g.addEdge('A', 'B');
+g.addEdge('A', 'C');
+g.addEdge('B', 'C');
+
+console.log('Graph before removing edge and vertex:');
+g.printGraph();
+
