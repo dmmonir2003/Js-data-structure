@@ -59,3 +59,14 @@ g.addEdge('B', 'C');
 console.log('Graph before removing edge and vertex:');
 g.printGraph();
 
+// Remove edge between A and B
+g.removeEdge('A', 'B');
+
+console.log('Graph after removing edge A-B:');
+g.printGraph();
+
+// Remove vertex B
+g.removeVertex('B');
+
+console.log('Graph after removing vertex B:');
+g.printGraph();
