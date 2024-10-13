@@ -1,3 +1,5 @@
+/*
+
 class Graph {
   constructor() {
     this.adjacencyList = {};
@@ -70,3 +72,5 @@ g.removeVertex('B');
 
 console.log('Graph after removing vertex B:');
 g.printGraph();
+
+*/
