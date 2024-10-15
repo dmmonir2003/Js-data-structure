@@ -1,3 +1,4 @@
+/*
 function createHelloWorld() {
     return function() {
         return "Hello World";
@@ -6,3 +7,5 @@ function createHelloWorld() {
 
 const hello = createHelloWorld();
 console.log(hello()); // Output: "Hello World"
+
+*/
