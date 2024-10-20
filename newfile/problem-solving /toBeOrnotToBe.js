@@ -1,3 +1,4 @@
+/*
 function expect(val) {
     return {
         toBe: function(otherVal) {
@@ -25,3 +26,5 @@ try {
 } catch (error) {
     console.error(error.message);
 }
+
+*/ 
