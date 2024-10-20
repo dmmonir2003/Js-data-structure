@@ -15,3 +15,13 @@ function expect(val) {
             }
         }
     };
+    
+    
+    // Example usage:
+try {
+    expect(5).toBe(5); // true
+    expect(5).notToBe(10); // true
+    expect(5).toBe(3); // throws "Not Equal"
+} catch (error) {
+    console.error(error.message);
+}
