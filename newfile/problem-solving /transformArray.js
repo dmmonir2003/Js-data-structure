@@ -7,3 +7,11 @@ function transformArray(arr, fn) {
 
   return returnedArray;
 }
+
+
+// Example usage:
+const arr = [1, 2, 3, 4];
+const fn = (element, index) => element * index;
+
+const result = transformArray(arr, fn);
+console.log(result); // Output: [0, 2, 6, 12]
