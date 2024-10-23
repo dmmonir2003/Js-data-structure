@@ -1,3 +1,4 @@
+/*
 function transformArray(arr, fn) {
   let returnedArray = [];
 
@@ -15,3 +16,5 @@ const fn = (element, index) => element * index;
 
 const result = transformArray(arr, fn);
 console.log(result); // Output: [0, 2, 6, 12]
+
+*/
