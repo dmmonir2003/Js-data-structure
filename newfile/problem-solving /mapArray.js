@@ -1,3 +1,4 @@
+/*
 function mapArray(arr, fn) {
   const result = [];
   
@@ -15,3 +16,4 @@ const fn = (element, index) => element * 2 + index;
 const transformedArray = mapArray(arr, fn);
 console.log(transformedArray); // Output: [2, 5, 8, 11]
 
+*/
