@@ -13,3 +13,11 @@ function filter(arr, fn) {
     
     return filteredArr;
 }
+
+
+// Example usage:
+const arr = [1, 2, 3, 4, 5];
+const fn = (num, i) => num % 2 === 0; // Filter even numbers
+
+const result = filter(arr, fn);
+console.log(result); // Output: [2, 4]
