@@ -1,4 +1,4 @@
-
+/*
 
 function filter(arr, fn) {
     const filteredArr = [];
@@ -21,3 +21,7 @@ const fn = (num, i) => num % 2 === 0; // Filter even numbers
 
 const result = filter(arr, fn);
 console.log(result); // Output: [2, 4]
+
+
+
+*/ 
