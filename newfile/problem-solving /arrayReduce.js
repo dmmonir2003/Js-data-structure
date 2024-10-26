@@ -8,3 +8,10 @@ function reduce(nums, fn, init) {
 
     return result;
 }
+
+
+const nums = [1, 2, 3, 4];
+const fn = (accum, curr) => accum + curr;
+const init = 0;
+
+console.log(reduce(nums, fn, init)); // Output: 10
