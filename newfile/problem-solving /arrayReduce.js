@@ -1,3 +1,5 @@
+/*
+
 function reduce(nums, fn, init) {
     let result = init;
 
@@ -15,3 +17,6 @@ const fn = (accum, curr) => accum + curr;
 const init = 0;
 
 console.log(reduce(nums, fn, init)); // Output: 10
+
+
+*/
