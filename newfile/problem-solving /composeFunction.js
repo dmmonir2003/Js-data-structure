@@ -1,7 +1,9 @@
-/**
+/*
+ 
+  
  * @param {Function[]} functions
  * @return {Function}
- */
+ 
 var compose = function(functions) {
     // If the array is empty, return the identity function
     if (functions.length === 0) {
@@ -23,3 +25,6 @@ console.log(fn(4));  // Output: 5
 // 2. Apply the last function: 4 - 3 = 1
 // 3. Apply the second function: 1 * 2 = 2
 // 4. Apply the first function: 2 + 1 = 3
+
+
+*/
