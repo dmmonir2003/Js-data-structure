@@ -9,3 +9,11 @@ function once(fn) {
     return undefined;  // Return undefined on subsequent calls
   };
 }
+
+
+// Example usage
+const exampleFunction = (x) => x * 2;
+const singleCallFunction = once(exampleFunction);
+
+console.log(singleCallFunction(5));  // Output: 10 (5 * 2)
+console.log(singleCallFunction(5));  // Output: undefined (already called once)
