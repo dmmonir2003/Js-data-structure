@@ -1,3 +1,6 @@
+/*
+
+
 function memoize(fn) {
   const cache = new Map();
 
@@ -30,3 +33,5 @@ console.log(memoizedSum(3, 2));  // 5
 console.log(memoizedSum(2, 3));  // 5 (Separate call from (3, 2))
 console.log(memoizedFib(5));     // 8
 console.log(memoizedFactorial(5)); // 120
+
+*/
