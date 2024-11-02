@@ -1,3 +1,4 @@
+/*
 function cancellable(fn, args, t) {
   // Set a timeout to execute `fn` after `t` milliseconds
   const timeoutId = setTimeout(() => fn(...args), t);
@@ -16,3 +17,5 @@ const delay = 1000; // time delay in ms
 
 const cancelFn = cancellable(fn, args, delay); // create the cancellable timeout
 setTimeout(cancelFn, 500); // call cancel after 500ms, before fn executes
+
+*/
