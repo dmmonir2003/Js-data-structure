@@ -1,3 +1,5 @@
+/*
+
 function intervalCancellation(fn, args, t, cancelTimeMs) {
     // Call the function immediately with provided arguments
     fn(...args);
@@ -26,3 +28,5 @@ const t = 1000; // 1 second
 const cancelTimeMs = 5000; // 5 seconds
 
 intervalCancellation(exampleFn, args, t, cancelTimeMs);
+
+*/
