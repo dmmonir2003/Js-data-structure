@@ -7,3 +7,12 @@ function cancellable(fn, args, t) {
     clearTimeout(timeoutId); // Cancel the timeout if this function is invoked
   };
 }
+
+
+// Usage example:
+const fn = (a, b) => console.log(a + b); // example function to run
+const args = [2, 3]; // arguments to pass to `fn`
+const delay = 1000; // time delay in ms
+
+const cancelFn = cancellable(fn, args, delay); // create the cancellable timeout
+setTimeout(cancelFn, 500); // call cancel after 500ms, before fn executes
