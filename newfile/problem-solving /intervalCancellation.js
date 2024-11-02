@@ -14,3 +14,15 @@ function intervalCancellation(fn, args, t, cancelTimeMs) {
     // Return the cancel function in case you want to call it manually
     return cancelFn;
 }
+
+
+// Example usage:
+function exampleFn(arg) {
+    console.log(arg);
+}
+
+const args = ["Hello, world!"];
+const t = 1000; // 1 second
+const cancelTimeMs = 5000; // 5 seconds
+
+intervalCancellation(exampleFn, args, t, cancelTimeMs);
