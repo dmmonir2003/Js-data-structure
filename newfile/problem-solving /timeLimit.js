@@ -1,3 +1,4 @@
+/*
 function timeLimit(fn, t) {
   return async function(...args) {
     // Create a promise that rejects if the time limit is exceeded
@@ -24,3 +25,6 @@ const limitedFunction = timeLimit(exampleAsyncFunction, 500);
 limitedFunction("test")
   .then(console.log)
   .catch(console.error); // Should output "Time Limit Exceeded" since it exceeds 500 ms
+  
+  
+  */
