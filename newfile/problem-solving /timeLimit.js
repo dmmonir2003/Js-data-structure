@@ -9,3 +9,18 @@ function timeLimit(fn, t) {
     return Promise.race([fn(...args), timeoutPromise]);
   };
 }
+
+
+// Sample async function
+async function exampleAsyncFunction(arg) {
+  return new Promise((resolve) => {
+    setTimeout(() => resolve(`Result: ${arg}`), 1000); // Resolves after 1 second
+  });
+}
+
+// Wrap exampleAsyncFunction with time limit of 500 ms
+const limitedFunction = timeLimit(exampleAsyncFunction, 500);
+
+limitedFunction("test")
+  .then(console.log)
+  .catch(console.error); // Should output "Time Limit Exceeded" since it exceeds 500 ms
