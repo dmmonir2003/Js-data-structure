@@ -1,3 +1,4 @@
+/*
 class CacheWithTimeLimit {
     constructor() {
         this.cache = new Map(); // Store key-value with expiration time
@@ -81,3 +82,4 @@ setTimeout(() => {
         console.log("Count (after keys 2 and 3 expired):", cache.count()); // Expected output: 0
     }, 3500);
 }, 1500);
+*/
