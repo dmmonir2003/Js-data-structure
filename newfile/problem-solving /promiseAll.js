@@ -1,3 +1,4 @@
+/*
 function promiseAll(functions) {
   return new Promise((resolve, reject) => {
     const results = [];
@@ -43,3 +44,4 @@ promiseAll([
   () => new Promise(resolve => setTimeout(() => resolve(16), 100))
 ]).then(result => console.log(result)) // Output: [4, 10, 16]
   .catch(error => console.error(error));
+  */
