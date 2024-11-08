@@ -22,3 +22,24 @@ function promiseAll(functions) {
     });
   });
 }
+
+// Example 1
+promiseAll([
+  () => new Promise(resolve => setTimeout(() => resolve(5), 200))
+]).then(result => console.log(result)) // Output: [5]
+  .catch(error => console.error(error));
+
+// Example 2
+promiseAll([
+  () => new Promise(resolve => setTimeout(() => resolve(1), 200)),
+  () => new Promise((_, reject) => setTimeout(() => reject("Error"), 100))
+]).then(result => console.log(result))
+  .catch(error => console.error(error)); // Output: "Error"
+
+// Example 3
+promiseAll([
+  () => new Promise(resolve => setTimeout(() => resolve(4), 50)),
+  () => new Promise(resolve => setTimeout(() => resolve(10), 150)),
+  () => new Promise(resolve => setTimeout(() => resolve(16), 100))
+]).then(result => console.log(result)) // Output: [4, 10, 16]
+  .catch(error => console.error(error));
