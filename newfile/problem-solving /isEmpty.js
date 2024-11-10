@@ -10,3 +10,10 @@ function isEmpty(value) {
   }
   return false; // If not an object or array, return false
 }
+
+console.log(isEmpty({})); // true
+console.log(isEmpty({ key: 'value' })); // false
+console.log(isEmpty([])); // true
+console.log(isEmpty([1, 2, 3])); // false
+console.log(isEmpty(null)); // false
+console.log(isEmpty(42)); // false
