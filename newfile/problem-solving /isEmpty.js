@@ -1,3 +1,4 @@
+/*
 function isEmpty(value) {
   // Check if the value is an object or array
   if (typeof value === 'object' && value !== null) {
@@ -17,3 +18,4 @@ console.log(isEmpty([])); // true
 console.log(isEmpty([1, 2, 3])); // false
 console.log(isEmpty(null)); // false
 console.log(isEmpty(42)); // false
+*/
