@@ -12,3 +12,8 @@ function chunkArray(arr, size) {
   return chunked; // Return the chunked array
 }
 
+// Example usage:
+const arr = [1, 2, 3, 4, 5, 6, 7, 8];
+const size = 3;
+console.log(chunkArray(arr, size));
+// Output: [[1, 2, 3], [4, 5, 6], [7, 8]]
