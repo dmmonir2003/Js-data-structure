@@ -1,3 +1,4 @@
+/*
 function chunkArray(arr, size) {
   // Initialize an empty array to store the chunks
   const chunked = [];
@@ -17,3 +18,5 @@ const arr = [1, 2, 3, 4, 5, 6, 7, 8];
 const size = 3;
 console.log(chunkArray(arr, size));
 // Output: [[1, 2, 3], [4, 5, 6], [7, 8]]
+
+*/
