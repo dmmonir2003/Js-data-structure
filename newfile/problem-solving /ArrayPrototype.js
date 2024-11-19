@@ -10,4 +10,5 @@ Array.prototype.last = function() {
 
 // Example usage
 const arr1 = [1, 2, 3];
-console.log(arr1.last()); // Output: 3
+console.log(arr1.last()); // Output: 3const arr2 = [];
+console.log(arr2.last()); // Output: -1
