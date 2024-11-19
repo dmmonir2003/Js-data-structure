@@ -7,3 +7,7 @@ Array.prototype.last = function() {
   // Return the last element of the array
   return this[this.length - 1];
 };
+
+// Example usage
+const arr1 = [1, 2, 3];
+console.log(arr1.last()); // Output: 3
