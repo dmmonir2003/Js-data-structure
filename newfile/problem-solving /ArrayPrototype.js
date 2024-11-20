@@ -1,3 +1,4 @@
+/*
 // Extend the Array prototype
 Array.prototype.last = function() {
   // Check if the array is empty
@@ -12,3 +13,4 @@ Array.prototype.last = function() {
 const arr1 = [1, 2, 3];
 console.log(arr1.last()); // Output: 3const arr2 = [];
 console.log(arr2.last()); // Output: -1
+*/
