@@ -1,4 +1,5 @@
-// Enhance the Array prototype
+/*
+Enhance the Array prototype
 Array.prototype.groupBy = function (fn) {
   return this.reduce((grouped, item) => {
     const key = fn(item); // Generate the key using the provided callback function
@@ -20,3 +21,4 @@ console.log(grouped);
 //   even: [2, 4, 6]
 // }
 
+*/
