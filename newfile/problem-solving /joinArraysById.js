@@ -18,3 +18,19 @@ function joinArraysById(arr1, arr2) {
   // Convert map values to an array and sort by id
   return Array.from(map.values()).sort((a, b) => a.id - b.id);
 }
+
+// Example usage
+const arr1 = [
+  { id: 1, name: "Alice" },
+  { id: 2, name: "Bob" },
+  { id: 3, age: 25 }
+];
+
+const arr2 = [
+  { id: 2, age: 30 },
+  { id: 3, name: "Charlie" },
+  { id: 4, name: "David" }
+];
+
+const result = joinArraysById(arr1, arr2);
+console.log(result);
