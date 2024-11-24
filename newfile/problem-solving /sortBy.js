@@ -1,9 +1,11 @@
-/**
+
+ /*
  * Sorts an array based on the output of a function applied to its elements.
  * @param {Array} arr - The array to be sorted.
  * @param {Function} fn - The function that determines the sort order.
  * @returns {Array} - The sorted array.
  */
+ /*
 function sortBy(arr, fn) {
   return arr.sort((a, b) => fn(a) - fn(b));
 }
@@ -19,3 +21,5 @@ console.log(sortBy(arr, fn)); // Output: [1, 3, 5, 8]
 const arr2 = [-2, -1, 0, 1, 2];
 const fn2 = (x) => x * x;
 console.log(sortBy(arr2, fn2)); // Output: [0, -1, 1, -2, 2]
+
+*/
