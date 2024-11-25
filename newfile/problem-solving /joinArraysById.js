@@ -1,3 +1,4 @@
+/*
 function joinArraysById(arr1, arr2) {
   const map = new Map();
 
@@ -34,3 +35,5 @@ const arr2 = [
 
 const result = joinArraysById(arr1, arr2);
 console.log(result);
+
+*/
