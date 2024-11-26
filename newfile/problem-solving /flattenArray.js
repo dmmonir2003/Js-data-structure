@@ -17,3 +17,9 @@ function flattenArray(arr, depth) {
   return result;
 }
 
+// Example Usage:
+const arr = [1, [2, [3, [4, [5]]]]];
+const depth = 2;
+
+console.log(flattenArray(arr, depth));
+// Output: [1, 2, 3, [4, [5]]]
