@@ -1,3 +1,6 @@
+
+
+/*
 function flattenArray(arr, depth) {
   const result = [];
 
@@ -22,4 +25,6 @@ const arr = [1, [2, [3, [4, [5]]]]];
 const depth = 2;
 
 console.log(flattenArray(arr, depth));
-// Output: [1, 2, 3, [4, [5]]]
+// Output: [1, 2, 3, [4, [5]]]।
+
+*/
