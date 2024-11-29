@@ -19,3 +19,15 @@ function flatten(arr, n) {
     }
     return result;
   }
+  
+  
+  // Call the helper function with initial depth n
+  return flattenHelper(arr, n);
+}
+
+// Example usage:
+const nestedArray = [1, [2, [3, [4, [5]]]]];
+const depth = 2;
+
+console.log(flatten(nestedArray, depth));
+// Output: [1, 2, 3, [4, [5]]]
