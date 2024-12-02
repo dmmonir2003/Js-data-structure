@@ -1,3 +1,4 @@
+/*
 function flatten(arr, n) {
   // Helper function to flatten the array
   function flattenHelper(array, depth) {
@@ -31,3 +32,5 @@ const depth = 2;
 
 console.log(flatten(nestedArray, depth));
 // Output: [1, 2, 3, [4, [5]]]
+
+*/
