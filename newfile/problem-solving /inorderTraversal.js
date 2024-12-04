@@ -9,9 +9,11 @@
 }
 */
 
+/*
 // Example usage:
 const nestedArray = [1, [2, 3], [4, [5, 6]], 7];
 const generator = inorderTraversal(nestedArray);
 
 console.log([...generator]); // Output: [1, 2, 3, 4, 5, 6, 7]
 
+*/
