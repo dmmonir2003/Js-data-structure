@@ -30,3 +30,12 @@ function executeFunctionsInParallel(functions) {
     }
   });
 }
+
+// Example usage
+const asyncFunc1 = () => new Promise((resolve) => setTimeout(() => resolve("Result 1"), 100));
+const asyncFunc2 = () => new Promise((resolve) => setTimeout(() => resolve("Result 2"), 200));
+const asyncFunc3 = () => new Promise((_, reject) => setTimeout(() => reject("Error in func3"), 150));
+
+executeFunctionsInParallel([asyncFunc1, asyncFunc2, asyncFunc3])
+  .then((results) => console.log("Resolved with:", results))
+  .catch((error) => console.log("Rejected with:", error));
