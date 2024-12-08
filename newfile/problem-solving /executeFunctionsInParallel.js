@@ -1,4 +1,5 @@
-function executeFunctionsInParallel(functions) {
+
+/*function executeFunctionsInParallel(functions) {
   return new Promise((resolve, reject) => {
     const results = [];
     let resolvedCount = 0;
@@ -39,3 +40,4 @@ const asyncFunc3 = () => new Promise((_, reject) => setTimeout(() => reject("Err
 executeFunctionsInParallel([asyncFunc1, asyncFunc2, asyncFunc3])
   .then((results) => console.log("Resolved with:", results))
   .catch((error) => console.log("Rejected with:", error));
+  */
